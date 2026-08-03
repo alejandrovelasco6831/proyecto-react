@@ -1,16 +1,108 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# 🐾 RefugioPet - Frontend con React
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+RefugioPet es una aplicación web desarrollada con React que busca facilitar el proceso de adopción de mascotas. La plataforma permite a los usuarios conocer información sobre la adopción, registrarse, iniciar sesión y acceder a las diferentes funcionalidades del sistema.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías utilizadas
 
-## Expanding the Oxlint configuration
+- React
+- Vite
+- React Router DOM
+- HTML5
+- CSS3
+- JavaScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## Cambios realizados
+
+Durante el desarrollo del proyecto se realizaron las siguientes modificaciones:
+
+- Se migró el frontend de HTML y CSS a React.
+- Se creó el proyecto utilizando Vite.
+- Se instaló y configuró React Router DOM para la navegación entre páginas.
+- Se organizaron las páginas dentro de la carpeta `pages`.
+- Se configuraron las rutas principales:
+  - Inicio
+  - Iniciar sesión
+  - Registro
+- Se migró la página principal (`inicio.html`) a un componente React (`inicio.jsx`).
+- Se importaron correctamente los archivos CSS en cada componente.
+- Se reorganizaron las imágenes dentro de la carpeta `src/assets`.
+- Se configuró la navegación mediante `Link` de React Router.
+- Se corrigieron errores relacionados con las importaciones y las exportaciones de componentes.
+- Se preparó la estructura para continuar con el desarrollo del proyecto.
+
+---
+
+## Estructura del proyecto
+
+```
+src/
+│
+├── assets/
+│   ├── logo.png
+│   └── carrusel/
+│
+├── pages/
+│   ├── inicio.jsx
+│   ├── iniciosesion.jsx
+│   └── registrar.jsx
+│
+├── App.jsx
+├── main.jsx
+├── ini.css
+├── inisesion.css
+└── registrar.css
+```
+
+---
+
+## Instalación
+
+Clonar el repositorio
+
+```bash
+git clone https://github.com/alejandrovelasco6831/proyecto-react.git
+```
+
+Entrar al proyecto
+
+```bash
+cd proyecto-react
+```
+
+Instalar dependencias
+
+```bash
+npm install
+```
+
+Ejecutar el proyecto
+
+```bash
+npm run dev
+```
+
+---
+
+## Funcionalidades actuales
+
+- Página de inicio.
+- Navegación mediante React Router.
+- Página de inicio de sesión.
+- Página de registro.
+- Organización de componentes.
+- Integración de estilos CSS.
+
+---
+
+## Autor
+
+**José Alejandro Velasco Saavedra**
+
+Tecnólogo en Análisis y Desarrollo de Software (ADSO) - SENA
